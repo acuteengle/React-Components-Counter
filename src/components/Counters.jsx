@@ -39,7 +39,7 @@ class Counters extends Component {
                 >
                     Reset
                 </button>
-                {this.renderCounters()};
+                {this.renderCounters()}
             </div>
         );
     }
