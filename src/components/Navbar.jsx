@@ -2,7 +2,7 @@ import React from "react";
 const Navbar = ({ totalCounters }) => {
     return (
         <nav className="navbar navbar-light bg-light">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
                 Non-Zero Counters{" "}
                 <span className="badge badge-pill badge-secondary">
                     {totalCounters}

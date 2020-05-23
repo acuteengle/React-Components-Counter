@@ -5,7 +5,7 @@ class Counters extends Component {
     renderCounters = () => {
         const { counters, onIncrement, onDelete } = this.props;
 
-        if (counters.length == 0) {
+        if (counters.length === 0) {
             return (
                 <div>
                     <p>There are no counters!</p>

@@ -9,7 +9,7 @@ class Counter extends Component {
     getBadgeClasses() {
         const { counter } = this.props;
         let classes = "badge m-2 badge-";
-        classes += counter.value == 0 ? "warning" : "primary";
+        classes += counter.value === 0 ? "warning" : "primary";
         return classes;
     }
 
